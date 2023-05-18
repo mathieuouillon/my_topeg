@@ -1,0 +1,23 @@
+# -------------------------------------------------------------------------------------------------
+# Name            = variable                        # Comment
+# -------------------------------------------------------------------------------------------------
+
+output            = ../Out-EICmed-M3-Ph.root
+EBene             = 10.4                            # Electron beam energy (GeV)
+PHmom             = 0.0                             # Nuclear beam momentum (GeV)
+model             = 1                               # Model number (1-5)
+target            = 3                               # Target (1-8)
+process           = 1                               # Process (1-4)
+Nb_event          = 10000                           # Nb of events to generate
+NB_cells          = 100                             # Nb of TFoam cells
+Samples_per_cells = 30                              # Nb of samples per cell
+seed              = 1234                            # Seed
+y_min             = 0.35                            # y min
+y_max             = 0.85                            # y Max
+Q2_min            = 1.0                             # Q2 min (GeV^2)
+Q2_max            = 10.0                            # Q2 Max (GeV^2)
+W2_min            = 1.0                             # W2 min (GeV^2)
+theta_e_max       = 0.7854                          # theta Max electron (rad)
+t_min             = 0.001                           # t min (GeV^2)
+t_range           = 6                               # t Range (GeV^2)
+e_helicity        = -1.0                            # Electron beam helicity
