@@ -1,0 +1,490 @@
+The system is: Linux - 3.10.0-1160.90.1.el7.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /u/apps/gcc/10.2.0/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/work/clas12/ouillon/my_topeg/build/CMakeFiles/3.25.0-rc1/CompilerIdCXX/a.out"
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /u/apps/gcc/10.2.0/bin/gfortran 
+Build flags: 
+Id flags: -v 
+
+The output was:
+0
+Pilotage: /u/apps/gcc/10.2.0/bin/gfortran -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Utilisation des specs internes.
+COLLECT_GCC=/u/apps/gcc/10.2.0/bin/gfortran
+COLLECT_LTO_WRAPPER=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper
+Cible : x86_64-pc-linux-gnu
+Configuré avec: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c,c++,fortran,go
+Modèle de thread: posix
+Algorithmes de compression LTO supportés: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccxkWX1s.f90 -quiet -v -iprefix /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/ CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -version -fintrinsic-modules-path /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude -o /tmp/cc1fKNOa.s
+GNU Fortran (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compilé par GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+heuristiques GGC: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+le répertoire « /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include » est ignoré car inexistant
+le répertoire « /u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include » est ignoré car présent deux fois
+le répertoire « /u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed » est ignoré car présent deux fois
+le répertoire « /u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include » est ignoré car inexistant
+la recherche pour #include "..." débute ici :
+la recherche pour #include <...> débute ici:
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed
+ /usr/local/include
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/../../include
+ /usr/include
+Fin de la liste de recherche.
+GNU Fortran2008 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compilé par GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+heuristiques GGC: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o /tmp/ccphKnAT.o /tmp/cc1fKNOa.s
+Version de l'assembleur GNU 2.27 (x86_64-redhat-linux) utilisant la version BFD version 2.27-44.base.el7_9.1
+Lecture des spécifications à partir de /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/libgfortran.spec
+renommer les specs lib à liborig
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc7Q3FoC.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 /lib/../lib64/crt1.o /lib/../lib64/crti.o /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/u/apps/gcc/10.2.0/bin/../lib/gcc -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. /tmp/ccphKnAT.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/work/clas12/ouillon/my_topeg/build/CMakeFiles/3.25.0-rc1/CompilerIdFortran/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /work/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-iMWxMf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a18ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a18ad.dir/build.make CMakeFiles/cmTC_a18ad.dir/build
+gmake[1]: Entering directory `/w/hallb-scshelf2102/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-iMWxMf'
+Building CXX object CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o
+/u/apps/gcc/10.2.0/bin/g++   -v -o CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -c /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/u/apps/gcc/10.2.0/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/cc1plus -quiet -v -iprefix /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/ -D_GNU_SOURCE /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccbLTDvo.s
+GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"
+ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed
+ /usr/local/include
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9260381041917fd006d8bdc7ba69e8c6
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbLTDvo.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_a18ad
+/u/group/clas12/packages/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a18ad.dir/link.txt --verbose=1
+/u/apps/gcc/10.2.0/bin/g++  -v CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a18ad 
+Using built-in specs.
+COLLECT_GCC=/u/apps/gcc/10.2.0/bin/g++
+COLLECT_LTO_WRAPPER=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a18ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Zj7rp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a18ad /lib/../lib64/crt1.o /lib/../lib64/crti.o /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/u/apps/gcc/10.2.0/bin/../lib/gcc -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a18ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/w/hallb-scshelf2102/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-iMWxMf'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0] ==> [/u/apps/gcc/10.2.0/include/c++/10.2.0]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu] ==> [/u/apps/gcc/10.2.0/include/c++/10.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward] ==> [/u/apps/gcc/10.2.0/include/c++/10.2.0/backward]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/../../include] ==> [/u/apps/gcc/10.2.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/u/apps/gcc/10.2.0/include/c++/10.2.0;/u/apps/gcc/10.2.0/include/c++/10.2.0/x86_64-pc-linux-gnu;/u/apps/gcc/10.2.0/include/c++/10.2.0/backward;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed;/usr/local/include;/u/apps/gcc/10.2.0/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /work/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-iMWxMf]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a18ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a18ad.dir/build.make CMakeFiles/cmTC_a18ad.dir/build]
+  ignore line: [gmake[1]: Entering directory `/w/hallb-scshelf2102/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-iMWxMf']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/u/apps/gcc/10.2.0/bin/g++   -v -o CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -c /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/u/apps/gcc/10.2.0/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/cc1plus -quiet -v -iprefix /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/ -D_GNU_SOURCE /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccbLTDvo.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 9260381041917fd006d8bdc7ba69e8c6]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccbLTDvo.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_a18ad]
+  ignore line: [/u/group/clas12/packages/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a18ad.dir/link.txt --verbose=1]
+  ignore line: [/u/apps/gcc/10.2.0/bin/g++  -v CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a18ad ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/u/apps/gcc/10.2.0/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a18ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6Zj7rp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a18ad /lib/../lib64/crt1.o /lib/../lib64/crti.o /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/u/apps/gcc/10.2.0/bin/../lib/gcc -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6Zj7rp.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a18ad] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o] ==> obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..]
+    arg [CMakeFiles/cmTC_a18ad.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o] ==> obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o]
+  collapse obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc] ==> [/u/apps/gcc/10.2.0/lib/gcc]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> [/u/apps/gcc/10.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> [/u/apps/gcc/10.2.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0;/u/apps/gcc/10.2.0/lib/gcc;/u/apps/gcc/10.2.0/lib64;/lib64;/usr/lib64;/u/apps/gcc/10.2.0/lib]
+  implicit fwks: []
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /work/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-70N2B0
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d7ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d7ad.dir/build.make CMakeFiles/cmTC_9d7ad.dir/build
+gmake[1]: Entering directory `/w/hallb-scshelf2102/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-70N2B0'
+Building Fortran object CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o
+/u/apps/gcc/10.2.0/bin/gfortran   -v -c /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o
+Using built-in specs.
+COLLECT_GCC=/u/apps/gcc/10.2.0/bin/gfortran
+Target: x86_64-pc-linux-gnu
+Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64'
+ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/f951 /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccvq2FYJ.f90 -quiet -v -iprefix /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/ /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -version -fintrinsic-modules-path /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude -o /tmp/cco1Zy3u.s
+GNU Fortran (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"
+ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"
+ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed
+ /usr/local/include
+ /u/apps/gcc/10.2.0/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o /tmp/cco1Zy3u.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64'
+Linking Fortran executable cmTC_9d7ad
+/u/group/clas12/packages/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d7ad.dir/link.txt --verbose=1
+/u/apps/gcc/10.2.0/bin/gfortran  -v CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9d7ad 
+Driving: /u/apps/gcc/10.2.0/bin/gfortran -v CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9d7ad -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/u/apps/gcc/10.2.0/bin/gfortran
+COLLECT_LTO_WRAPPER=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c,c++,fortran,go
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+Reading specs from /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d7ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/
+LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d7ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH7qI1O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d7ad /lib/../lib64/crt1.o /lib/../lib64/crti.o /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/u/apps/gcc/10.2.0/bin/../lib/gcc -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d7ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/w/hallb-scshelf2102/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-70N2B0'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/u/apps/gcc/10.2.0/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/../../include] ==> [/u/apps/gcc/10.2.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed;/usr/local/include;/u/apps/gcc/10.2.0/include;/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /work/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-70N2B0]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d7ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d7ad.dir/build.make CMakeFiles/cmTC_9d7ad.dir/build]
+  ignore line: [gmake[1]: Entering directory `/w/hallb-scshelf2102/clas12/ouillon/my_topeg/build/CMakeFiles/CMakeScratch/TryCompile-70N2B0']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [/u/apps/gcc/10.2.0/bin/gfortran   -v -c /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeFortranCompilerABI.F90 -o CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/u/apps/gcc/10.2.0/bin/gfortran]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/f951 /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeFortranCompilerABI.F90 -cpp=/tmp/ccvq2FYJ.f90 -quiet -v -iprefix /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/ /u/group/clas12/packages/cmake/3.25.0/share/cmake-3.25/Modules/CMakeFortranCompilerABI.F90 -quiet -dumpbase CMakeFortranCompilerABI.F90 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -version -fintrinsic-modules-path /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude -o /tmp/cco1Zy3u.s]
+  ignore line: [GNU Fortran (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"]
+  ignore line: [ignoring duplicate directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/u/apps/gcc/10.2.0/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/finclude]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /u/apps/gcc/10.2.0/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o /tmp/cco1Zy3u.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-c' '-o' 'CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking Fortran executable cmTC_9d7ad]
+  ignore line: [/u/group/clas12/packages/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d7ad.dir/link.txt --verbose=1]
+  ignore line: [/u/apps/gcc/10.2.0/bin/gfortran  -v CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9d7ad ]
+  ignore line: [Driving: /u/apps/gcc/10.2.0/bin/gfortran -v CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -o cmTC_9d7ad -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/u/apps/gcc/10.2.0/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../srcdir/configure --prefix=/apps/gcc/10.2.0 --enable-languages=c c++ fortran go]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [Reading specs from /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d7ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/u/apps/gcc/10.2.0/bin/../lib/gcc/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d7ad' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH7qI1O.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d7ad /lib/../lib64/crt1.o /lib/../lib64/crti.o /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/u/apps/gcc/10.2.0/bin/../lib/gcc -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/u/apps/gcc/10.2.0/bin/../libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccH7qI1O.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9d7ad] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
+    arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
+    arg [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o] ==> obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..]
+    arg [CMakeFiles/cmTC_9d7ad.dir/CMakeFortranCompilerABI.F90.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o] ==> obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o]
+    arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
+  collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
+  collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
+  collapse obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o]
+  collapse obj [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o]
+  collapse obj [/lib/../lib64/crtn.o] ==> [/lib64/crtn.o]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc] ==> [/u/apps/gcc/10.2.0/lib/gcc]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> [/u/apps/gcc/10.2.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/u/apps/gcc/10.2.0/bin/../lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> [/u/apps/gcc/10.2.0/lib]
+  implicit libs: [gfortran;m;gcc_s;gcc;quadmath;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/lib64/crt1.o;/lib64/crti.o;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o;/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o;/lib64/crtn.o]
+  implicit dirs: [/u/apps/gcc/10.2.0/lib/gcc/x86_64-pc-linux-gnu/10.2.0;/u/apps/gcc/10.2.0/lib/gcc;/u/apps/gcc/10.2.0/lib64;/lib64;/usr/lib64;/u/apps/gcc/10.2.0/lib]
+  implicit fwks: []
+
+

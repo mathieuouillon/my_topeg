@@ -1,0 +1,6 @@
+# The fortran modules provided by this target.
+provides
+ gpdee_module.mod
+ imcff1_module.mod
+ read_file_module.mod
+ stuffmod.mod
