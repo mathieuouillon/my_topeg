@@ -35,10 +35,7 @@ auto TOPEG::Model131V2_EventGeneratorFOAM::Transform(std::array<double, m_nDim> 
 }
 
 auto TOPEG::Model131V2_EventGeneratorFOAM::Density(int nDim, Double_t *V) -> Double_t {
-    std::stringstream msg;
-    msg << "thread id = " << std::this_thread::get_id() << " call density function nb : " << counter << "\n";
-    // std::cout << msg.str() << std::flush;
-
+    
     if (nDim != m_nDim) throw std::invalid_argument(std::string("ERROR Nb of dimension mismatch in Model 131 -- dim FOAM = " + std::to_string(nDim) + " dim Model = " + std::to_string(m_nDim)));
 
     std::array<double, m_nDim> MC = {};
@@ -52,12 +49,9 @@ auto TOPEG::Model131V2_EventGeneratorFOAM::Density(int nDim, Double_t *V) -> Dou
 
     counter++;
     if (counter % 10000 == 100) {
-        auto TimeP = std::chrono::high_resolution_clock::now() - TimeC;
-        auto hrs   = std::chrono::duration_cast<std::chrono::hours>(TimeP);
-        auto mins  = std::chrono::duration_cast<std::chrono::minutes>(TimeP - hrs);
-        auto secs  = std::chrono::duration_cast<std::chrono::seconds>(TimeP - hrs - mins);
-        auto ms    = std::chrono::duration_cast<std::chrono::milliseconds>(TimeP - hrs - mins - secs);
-        std::cout << "Time elapsed is " << hrs.count() << "h " << mins.count() << "min " << secs.count() << "s " << ms.count() << "ms, for " << counter << " calls." << std::endl;
+        auto TimeP          = std::chrono::high_resolution_clock::now() - TimeC;
+        auto [h, min, s, ms] = break_down_durations<std::chrono::hours, std::chrono::minutes, std::chrono::seconds, std::chrono::milliseconds>(TimeP);
+        std::cout << "Time elapsed is " << h.count() << "h " << min.count() << "min " << s.count() << "s " << ms.count() << "ms, for " << counter << " calls." << std::endl;
     }
 
     return Model131(MC);
@@ -146,6 +140,8 @@ auto TOPEG::Model131V2_EventGeneratorFOAM::Model131(const std::array<double, m_n
     double ps     = mc[4];
     double thetas = mc[5] / 57.2957795;
     double crosssect = 0;
+
+    crosssect = 1 / (1.0 + pow((xb - xc) / c, 2)) * pow(q0 / q, alp) * 1 / (pow((1 + b * t), beta)) * (1 - d * (1 - std::cos(f))) * deut_mom(ps) * std::pow(std::sin(thetas), 2);
 
     return crosssect;
 }

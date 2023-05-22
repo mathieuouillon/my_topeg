@@ -28,6 +28,12 @@ MODULE gpdee_module
     REAL(KIND = 8) :: CE(8) = 0
 END MODULE
 
+MODULE stuffmod
+    USE iso_c_binding
+    implicit none
+    integer(c_int), bind(c, name="count") :: count_f
+END MODULE
+
 !     Integer in = 1->pdvcs | 2->ndvcs
 !     Integer igpde = 1->(H,F1) |2->(E,F2)
 !     Integer itot =1->BH only | 2->cross tot
@@ -36,6 +42,7 @@ END MODULE
 !     Double  phip =  azimuthal angle of  the inner nucleon. Value between [0,2\pi] (in radians)
 SUBROUTINE CROSS_BOUNDNUCLEON_DEUT_F90(xb, d2g, dq2, ebeam, eh, phideg, xk, costhp, phip, in, igpde, itot, dlambda, crosssect)
     USE read_file_module
+    USE stuffmod
     IMPLICIT REAL(KIND = 8)(A-H, O-Z)
     REAL(KIND = 8) :: alu
     REAL(KIND = 8) :: tbh2
@@ -78,7 +85,8 @@ SUBROUTINE CROSS_BOUNDNUCLEON_DEUT_F90(xb, d2g, dq2, ebeam, eh, phideg, xk, cost
     q1z = -q / eps * SQRT(1.d0 + eps**2)
     dnu = q / eps
 
-    IF (abs(dk(2) - 0.025)>0.0001) THEN
+    IF (count_f < 1) THEN
+        count_f = 1
         WRITE(*,*) "READ THE DAV18.DATI FILE ", dk(2)
         CALL mutexlock()
         OPEN(UNIT = 30, file = '../dav18.dati')

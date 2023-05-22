@@ -36,6 +36,14 @@ namespace TOPEG {
         std::array<double, m_nDim> MCV = {};
         std::array<double, m_nDim> ExV = {};
 
+        template<class... Durations, class DurationIn>
+        std::tuple<Durations...> break_down_durations(DurationIn d) {
+            std::tuple<Durations...> output;
+            using discard = int[];
+            (void) discard{0, (void(((std::get<Durations>(output) = std::chrono::duration_cast<Durations>(d)), (d -= std::chrono::duration_cast<DurationIn>(std::get<Durations>(output))))), 0)...};
+            return output;
+        }
+
         auto getqM(const std::array<double, m_nDim> &mc) -> double;
         auto getxa(const std::array<double, m_nDim> &mc) -> double;
         auto gettm(const std::array<double, m_nDim> &mc) -> double;

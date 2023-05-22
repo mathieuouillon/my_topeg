@@ -16,7 +16,7 @@ if (CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
 endif ()
 
 find_package(ROOT REQUIRED COMPONENTS RIO Net Hist Tree Matrix Physics MathCore Thread Foam GenVector)
-
+include(${ROOT_USE_FILE})
 set(SOURCE
         ${CMAKE_CURRENT_SOURCE_DIR}/source/Model131V2.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/source/Model531V2.cpp

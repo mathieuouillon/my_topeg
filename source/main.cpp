@@ -1,4 +1,5 @@
 #include <IO.hpp>
+#include <Model131V2.hpp>
 #include <Model531V2.hpp>
 #include <Parser.hpp>
 #include <TFoamMT.h>
@@ -10,6 +11,8 @@
 #include <draw.hpp>
 #include <iostream>
 #include <root2lund.hpp>
+
+int count = 0;
 
 extern "C" {
 static std::mutex FortranModelMutex;
@@ -230,14 +233,16 @@ auto multiThread() -> void {
     parserOutput.target       = 3;
     parserOutput.process      = 1;
     std::uint16_t modelNb     = parserOutput.model * 100 + parserOutput.target * 10 + parserOutput.process;
-    std::uint16_t nbThread    = 6;
+    std::uint16_t nbThread    = 20;
     std::cout << "Model = " << modelNb << std::endl;
 
     InitialsConditions initialsConditions(parserOutput.EBene, parserOutput.e_helicity, parserOutput.PHmom);
     KinematicsRange kinematicsRange(parserOutput.y_min, parserOutput.y_max, parserOutput.Q2_min, parserOutput.Q2_max, parserOutput.W2_min, parserOutput.theta_e_max, parserOutput.t_min, parserOutput.t_range);
 
-    std::shared_ptr<TOPEG::Model_EventGeneratorFOAM> rho = std::make_shared<TOPEG::Model531_v2>(initialsConditions, kinematicsRange);
-
+    // std::shared_ptr<TOPEG::Model_EventGeneratorFOAM> rho = std::make_shared<TOPEG::Model531_v2>(initialsConditions, kinematicsRange);
+    std::shared_ptr<TOPEG::Model_EventGeneratorFOAM> rho = std::make_shared<TOPEG::Model131V2_EventGeneratorFOAM>(
+        parserOutput.EBene, parserOutput.PHmom, parserOutput.y_min, parserOutput.y_max, parserOutput.Q2_min, parserOutput.Q2_max, 
+        parserOutput.W2_min, parserOutput.theta_e_max, parserOutput.t_min, parserOutput.t_range, parserOutput.e_helicity);
 
     const std::string gridName = "../grid_SaraModel.root";
     const std::string fileName = "../saraModelEventGenerated.root";
@@ -253,11 +258,12 @@ auto multiThread() -> void {
     } else {
         std::cout << "Grid file not opened, starting initialize... " << std::endl;
         FoamX->SetkDim(rho->getDimNb());
-        FoamX->SetnCells(1e4);  // No. of cells, default=2000
-        FoamX->SetnSampl(100);  // No. of MC events in the cell MC exploration d=200
+        FoamX->SetChat(1);
+        FoamX->SetnCells(1e7);  // No. of cells, default=2000
+        FoamX->SetnSampl(300);  // No. of MC events in the cell MC exploration d=200
         FoamX->SetnBin(8);      // No. of bins in edge-histogram in cell exploration d=8
         FoamX->SetOptRej(1);    // Wted events for OptRej=0; wt=1 for OptRej=1 (default)
-        FoamX->SetOptDrive(2);  // Maximum weight reduction, =1 for variance reduction d=2
+        FoamX->SetOptDrive(2);  // Maximum weight reduction, =1 for variance reduction d=2 maximum weight optimization
         FoamX->SetEvPerBin(25); // Maximum number of the effective wt=1 events/bin
         FoamX->SetMaxWtRej(1.1);// Maximum weight used to get w=1 MC events d=1.1
         FoamX->SetRho(rho.get());
